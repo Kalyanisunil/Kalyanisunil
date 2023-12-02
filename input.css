@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.logo{
+    margin-left: 25px;
+    width: 20%;
+
+
+}
+.logo img{
+    width: 50%;
+    /* border-radius: 50px; */
+    border: white;
+    box-shadow: 50px;
+
+}
+.navbar{
+    display: flex;
+    
+}
+.navlist{
+width: 50%;
+/* background-color: rgb(212, 58, 58); */
+display: flex;
+align-items: center;
+}
+.navlist li{
+list-style: none;
+padding: 30px;
+
+
+}
+.navlist a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navlist li a:hover{
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.rightnav{
+    /* background-color: black; */
+    width: 50%;
+    text-align: right;
+
+}
+#search{
+    padding:3px;
+    font-size: 17px;
+    border: 1px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.btn-sm:hover{
+    background-color: rgb(165, 74, 74);
+    color: black;
+}
+.btn-sm{
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 2px;
+    background-color: white;
+}
+.background{
+    background: rgba(5, 5, 5, 0.7) url(../assets/pexels-jozef-fehér-2774140.jpg);
+    background-size: cover;
+    background-blend-mode:darken ;
+
+}
+.firstsection{
+    height:90vh;
+}
+.boxmain{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   max-width: 50%;
+   margin:auto;
+   padding: 230px;
+}
+.firsthalf{
+    width: 100%;
+    display:inline-flex;
+    text-align: left;
+    flex-direction: row;
+
+}
+.text{
+    display: flex;
+    text-align: center;
+    font-size: 48px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.secondhalf{
+width: 50%
+}
+.secondhalf img{
+    width: 70%;
+    padding: 20px;
+    /* border-radius: 100px; */
+}
+.btn1{
+    padding: 25px;
+    background-color:rgb(68, 6, 6);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-right: 20px;
+}
+.button{
+    margin-left: 549px;
+    margin-top: -172px;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+.btn1:hover{
+    background-color: burlywood;
+    color: black;
+}
